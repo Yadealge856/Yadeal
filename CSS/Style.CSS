@@ -1,0 +1,16 @@
+/* Background color */
+body {
+    background-color: #f0f8f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Center headers */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Left-align paragraphs */
+p {
+    text-align: left;
+}
