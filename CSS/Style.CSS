@@ -1,16 +1,67 @@
-/* Background color */
-body {
-    background-color: #0dec9b;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
-/* Center headers */
-h1, h2, h3 {
+/* Header style */
+.site-header {
+    background-color: #2e8b57;  /* green header */
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-/* Left-align paragraphs */
-p {
-    text-align: left;
+/* Footer style */
+.site-footer {
+    background-color: #eee;     /* light footer */
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* Highlighted headings */
+.highlight-text {
+    color: #cdf7d3;         
+    font-weight: bold;
+}
+
+/* Section: reasons */
+#reasons-section {
+    background-color: #f9f9f9;  /* light gray background */
+    padding: 15px;
+    margin: 15px;
+    border-left: 4px solid #2e8b57; /* green line */
+}
+
+/* Section: trails */
+#trails-section {
+    background-color: #fffaf0;  /* light cream background */
+    padding: 15px;
+    margin: 15px;
+    border-left: 4px solid #ffa500; /* orange */
+}
+
+/* Section: hidden gems */
+#hidden-gems {
+    background-color: #f0f8ff;  /* pale blue */
+    padding: 15px;
+    margin: 15px;
+    border-left: 4px solid #4682b4; /* steel blue */
+}
+
+/* Section: safety tips */
+#safety-tips {
+    background-color: #fff0f5;  /* light pink */
+    padding: 15px;
+    margin: 15px;
+    border-left: 4px solid #db7093; /* pink */
+}
+
+.flex-container {
+    display: flex;              
+    gap: 20px;                   
+    justify-content: space-around; /* space evenly around sections */
+    align-items: flex-start;     /* align tops of sections */
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.flex-container section {
+    flex: 1;                    
+    padding: 10px;
 }

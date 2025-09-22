@@ -6,9 +6,9 @@
 </head> 
 <body>
     <!-- Header section of the website -->
-    <header>
-        <h1>Hiking in Massachusetts</h1> <!-- Main heading -->
-        <h2>Discover Trails and Adventures</h2> <!-- Subheading -->
+    <header class="site-header">
+        <h1 class="highlight-text">Hiking in Massachusetts</h1> <!-- Main heading -->
+        <h2 class="highlight-text">Discover Trails and Adventures</h2> <!-- Subheading -->
     </header>
 
     <!-- Main content of the page -->
@@ -17,33 +17,36 @@
         <p>Massachusetts has some of the most beautiful hiking trails in New England. From mountain summits to seaside walks, there’s a trail for everyone.</p>
         <p>Whether you’re a beginner or an experienced hiker, you’ll find places that you will enjoy.</p>
 
-        <!-- Section with reasons to hike -->
-        <section>
-            <h3>Top Reasons to Hike in Massachusetts</h3>
-            <ul>
-                <li>Scenic mountain views</li>
-                <li>Accessible trails for all skill levels</li>
-                <li>Lots of history and landmarks</li>
-            </ul>
-        </section>
+        <!-- Flex container for side-by-side layout -->
+        <div class="flex-container">
+            <!-- Section with reasons to hike -->
+            <section id="reasons-section">
+                <h3>Top Reasons to Hike in Massachusetts</h3>
+                <ul>
+                    <li>Scenic mountain views</li>
+                    <li>Accessible trails for all skill levels</li>
+                    <li>Lots of history and landmarks</li>
+                </ul>
+            </section>
 
-        <!-- Section with a list of popular trails -->
-        <section>
-            <h3>Popular Trails</h3>
-            <ol>
-                <li>Mount Greylock</li>
-                <li>Blue Hills Reservation</li>
-                <li>Walden Pond</li>
-                <li>Middlesex Fells</li>
-            </ol>
+            <!-- Section with a list of popular trails -->
+            <section id="trails-section">
+                <h3>Popular Trails</h3>
+                <ol>
+                    <li>Mount Greylock</li>
+                    <li>Blue Hills Reservation</li>
+                    <li>Walden Pond</li>
+                    <li>Middlesex Fells</li>
+                </ol>
 
-            <!-- Image showing a hiking trail -->
-            <img src="images/mass-hiking.jpg" alt="Hiking trail in Massachusetts" width="400">
-        </section>
+                <!-- Image showing a hiking trail -->
+                <img src="images/mass-hiking.jpg" alt="Hiking trail in Massachusetts" width="400">
+            </section>
+        </div>
     </main>
 
     <!-- Footer with a link to the second page -->
-    <footer>
+    <footer class="site-footer">
         <a href="page2.html">Read more on Page 2</a>
     </footer>
 </body>
